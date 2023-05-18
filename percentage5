@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float s1,m,p,c,b,e ,sum=0;
+    cin>>m>>p>>c>>b>>e;
+    sum=m+p+c+b+e;
+    s1=(m+p+c+b+e)/5;
+    cout<<s1<<endl;
+    cout<<sum;
+    return 0;
+}
